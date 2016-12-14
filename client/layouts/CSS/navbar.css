@@ -1,0 +1,19 @@
+.navbar .logo {
+    background: url(images/logo.png) no-repeat center center;
+    -moz-background-size: 200 25px;
+    -o-background-size: 150px 25px;
+    -webkit-background-size: 150px 25px;
+    background-size: 150px 25px;
+    width: 180px;
+    display: block;
+
+    opacity: 0.5;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .navbar .logo:hover {
+      opacity: 1;
+      }
+}

@@ -1,0 +1,14 @@
+<template name="Signup">
+	{{#if currentUser}}
+	You are already logged in!
+	{{else}}
+	<div class="row">
+		<div class="col-md-4">
+		{{> atForm state='signIn'}}
+		</div>
+		<div class="col-md-8">
+		{{> atForm state='signUp'}}
+		</div>
+	</div>
+	{{/if}}
+</template>
